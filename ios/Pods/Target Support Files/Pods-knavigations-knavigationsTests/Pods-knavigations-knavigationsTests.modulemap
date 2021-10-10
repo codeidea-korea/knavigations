@@ -1,0 +1,6 @@
+module Pods_knavigations_knavigationsTests {
+  umbrella header "Pods-knavigations-knavigationsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

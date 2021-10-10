@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knavigations.iml" filepath="$PROJECT_DIR$/.idea/modules/knavigations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-368288871/knavigations.RNSendIntentModule.iml" filepath="$PROJECT_DIR$/.idea/modules/-368288871/knavigations.RNSendIntentModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/knavigations.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/knavigations.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-368288871/knavigations.react-native-send-intent.iml" filepath="$PROJECT_DIR$/.idea/modules/-368288871/knavigations.react-native-send-intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2120577706/knavigations.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/2120577706/knavigations.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/523893515/knavigations.react-native-tts.iml" filepath="$PROJECT_DIR$/.idea/modules/523893515/knavigations.react-native-tts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-815729903/knavigations.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-815729903/knavigations.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>
