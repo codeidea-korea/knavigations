@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.burnweb.rnsendintent.RNSendIntentPackage;
 import net.no_mad.tts.TextToSpeechPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
