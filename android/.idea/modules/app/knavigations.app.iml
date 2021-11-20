@@ -43,6 +43,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.soloader:annotation:0.10.1" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.soloader:nativeloader:0.10.1" level="project" />
@@ -62,8 +64,8 @@
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.32" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.2.2" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.4" level="project" />
@@ -122,8 +124,13 @@
     <orderEntry type="library" name="Gradle: androidx.autofill:autofill:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: org.webkit:android-jsc:r250230@aar" level="project" />
+    <orderEntry type="module" module-name="knavigations.invertase_react-native-apple-authentication" />
+    <orderEntry type="module" module-name="knavigations.react-native-firebase_auth" />
+    <orderEntry type="module" module-name="knavigations.react-native-firebase_app" />
     <orderEntry type="module" module-name="knavigations.react-native-splash-screen" />
     <orderEntry type="module" module-name="knavigations.RNSendIntentModule" />
+    <orderEntry type="module" module-name="knavigations.react-native-google-signin_google-signin" />
+    <orderEntry type="module" module-name="knavigations.react-native-geolocation-service" />
     <orderEntry type="module" module-name="knavigations.react-native-send-intent" />
     <orderEntry type="module" module-name="knavigations.react-native-tts" />
     <orderEntry type="module" module-name="knavigations.react-native-webview" />

@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_assets_image_splash_bg.svg.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\raw\\assets_image_splash_bg.svg"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_splash.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_assets_image_splash_text.svg.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\raw\\assets_image_splash_text.svg"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_assets_image_splash_text2.svg.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\raw\\assets_image_splash_text2.svg"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_launch_screen.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\layout\\launch_screen.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_background_splash.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\drawable-mdpi\\background_splash.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_fadein.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\anim\\fadein.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\anim_fadenone.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\anim\\fadenone.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_assets_image_splash.svg.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\raw\\assets_image_splash.svg"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnative_libraries_newappscreen_components_logo.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnative_libraries_newappscreen_components_logo.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_image_splash_bg2.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_image_splash_bg2.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_splash.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-mdpi\\splash.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_trans_screen.xml.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\layout\\trans_screen.xml"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_splash_bg.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\drawable-mdpi\\splash_bg.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_image_splash.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_image_splash.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_image_splash_text.png.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_image_splash_text.png"
+    },
+    {
+        "merged": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_assets_image_splash_bg2.svg.flat",
+        "source": "E:\\Project\\Group Project\\codeIdea\\greenpass\\knavigations\\android\\app\\src\\main\\res\\raw\\assets_image_splash_bg2.svg"
+    }
+]

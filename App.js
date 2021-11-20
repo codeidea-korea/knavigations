@@ -16,11 +16,14 @@ import SplashImage from './assets/image/splash_text.png';
 import SplashImageBg from './assets/image/splash_bg2.png';
 
 import appleAuth from '@invertase/react-native-apple-authentication';
-import { GoogleSignin, statusCodes } from '@react-native-community/google-signin';
+import {
+  GoogleSignin,
+  statusCodes,
+} from "@react-native-google-signin/google-signin";
 
 import Tts from 'react-native-tts';
 
-const sourceUrl = 'http://knavigation.codeidea.io/login';
+const sourceUrl = 'http://knavigation.codeidea.io';
 
 import {
   SafeAreaView,
@@ -37,6 +40,7 @@ import {
   Platform,
   PermissionsAndroid,
   Dimensions,
+
 } from 'react-native';
 
 import {
@@ -47,48 +51,52 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const googleSigninConfigure = async () => {
-  await GoogleSignin.configure({
-    scopes: [],
-    webClientId:
-      'Firebase Console의 Google 로그인 방법 설정에서 복사한 웹 클라이언트 ID 붙여넣기',
-  })
-};
+  const signIn = async () => {
+    try {
+      GoogleSignin.configure({
+        webClientId: GOOGLE_WEBID, // client ID of type WEB for your server (needed to verify user ID and offline access)
+        offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
+      });
 
-const onGoogleLogin = async () => {
-  try {
-    await GoogleSignin.hasPlayServices();
-    const { user } = await GoogleSignin.signIn();
-
-    axios.post<AxiosDataResponse, AxiosDataResponse<SNSLoginResponse>>('member/auth/sns/signin', {
-        id: user.id,
-        email: user.email,
-        sns_type: 'google',
-        device_type: Platform.OS,
-    }).then(data => {
-        if (data.token) {
-            return this.props.login(data.token);
-        }
-
-        this.props.toRegister({
-            id: user.id,
-            name: user.familyName || '' + user.name,
-            email: user.email,
-            sns_type: 'google',
-        });
-    });
-  } catch (error) {
-      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
-          console.log('user cancelled the login flow');
-      } else if (error.code === statusCodes.IN_PROGRESS) {
-          console.log('operation (e.g. sign in) is in progress already');
-      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
-          console.log('play services not available or outdated');
-      } else {
-          console.log(error.message);
+      await GoogleSignin.hasPlayServices();
+      const userInfo = await GoogleSignin.signIn();
+      if (userInfo.user.email === null) {
+        setMessage(
+          "구글 계정에 이메일 정보가 없습니다."
+        );
       }
-  }
-};
+      if (userInfo.user.email !== null) {
+        setLogin(true);
+        setEmail(userInfo.user.email);
+        GoogleAccount();
+        setMessage("Google sign in successful.");
+      }
+    } catch (error) {
+      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+        setMessage("Google signin was cancelled."); // user cancelled the login flow
+      } else if (error.code === statusCodes.IN_PROGRESS) {
+        setMessage("Login is in progress."); // operation (e.g. sign in) is in progress already
+      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+        setMessage("Google services not available or outdated."); // play services not available or outdated
+      } else {
+        setMessage("An error occured. check your network and try again."); // some other error happened
+      }
+    }
+  };
+
+  const signOut = async () => {
+    try {
+      GoogleSignin.configure({
+        webClientId: GOOGLE_WEBID, // client ID of type WEB for your server (needed to verify user ID and offline access)
+        offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
+      });
+      await GoogleSignin.revokeAccess();
+      await GoogleSignin.signOut();
+      setLogin(false);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
 const onAppleLogin = async () => {
   try {
@@ -166,6 +174,7 @@ const speekMessage = (ment) => {
   );
 };
 const handleOnMessage = ({ nativeEvent: { data } }) => {
+  
   console.log(data);
 
   if(data.type == 'REQ_SPEEK'){
@@ -214,9 +223,7 @@ const App: () => Node = () => {
   const [seconds, setSeconds] = useState(3);
   let timeout;
 
-  useEffect(() => {
-    googleSigninConfigure();
-  }, []);
+
 
   useEffect(() => {
     const countdown = setInterval(() => {
@@ -308,24 +315,28 @@ const INJECTED_CODE = `
 true;
 `;
 
-  return (<WebView
-    ref={ref}
-          originWhitelist={['*']}
-          source={{uri: sourceUrl}}
-          style={{marginTop: 0}}
-          userAgent='Mozilla/5.0 (Linux; Android 11; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Mobile Safari/537.36'
-          sharedCookiesEnabled={true}
-          thirdPartyCookiesEnabled={true}
-          mediaPlaybackRequiresUserAction={false}
-          useWebKit={true}
-          androidHardwareAccelerationDisabled 
-          onShouldStartLoadWithRequest={event => {
-            return onShouldStartLoadWithRequest(event);
-          }}
-          onNavigationStateChange={handleWebViewNavigationStateChange}
-          onMessage={handleOnMessage}
-//          onLoadStart={() => ref.current.injectJavaScript(INJECTED_CODE)}
-      />);
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <WebView
+        ref={ref}
+        originWhitelist={["*"]}
+        source={{ uri: sourceUrl }}
+        style={{ marginTop: 0 }}
+        userAgent="Mozilla/5.0 (Linux; Android 11; SM-A102U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Mobile Safari/537.36"
+        sharedCookiesEnabled={true}
+        thirdPartyCookiesEnabled={true}
+        mediaPlaybackRequiresUserAction={false}
+        useWebKit={true}
+        androidHardwareAccelerationDisabled
+        onShouldStartLoadWithRequest={(event) => {
+          return onShouldStartLoadWithRequest(event);
+        }}
+        onNavigationStateChange={handleWebViewNavigationStateChange}
+        onMessage={handleOnMessage}
+        //          onLoadStart={() => ref.current.injectJavaScript(INJECTED_CODE)}
+      />
+    </SafeAreaView>
+  );
 };
 
 const styles = StyleSheet.create({

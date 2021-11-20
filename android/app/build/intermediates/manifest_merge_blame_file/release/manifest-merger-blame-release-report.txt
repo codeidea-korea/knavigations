@@ -1,0 +1,337 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hanryubank.knavi"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:5:5-7:15
+12        <package android:name="com.nhn.android.nmap" />
+12-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:6:9-56
+12-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:6:18-53
+13    </queries>
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:9:5-67
+15-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:10:5-81
+16-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:11:5-80
+17-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:12:5-71
+18-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:12:22-68
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:13:5-80
+19-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:14:5-81
+20-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:react-native-firebase_auth] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+21-->[:react-native-firebase_auth] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:react-native-firebase_auth] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+22-->[:react-native-firebase_auth] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+23
+24    <application
+24-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:16:5-48:19
+25        android:name="com.hanryubank.knavi.MainApplication"
+25-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:17:9-40
+26        android:allowBackup="false"
+26-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:18:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] Y:\repository\gradle\caches\transforms-3\5646db46e2cfb43e7b3d42f3054c498c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:19:9-43
+29        android:label="@string/app_name"
+29-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:20:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:21:9-54
+31        android:theme="@style/AppTheme" >
+31-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:22:9-40
+32        <activity
+32-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:23:9-31:20
+33            android:name="com.hanryubank.knavi.SplashActivity"
+33-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:24:13-43
+34            android:exported="true"
+34-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:25:13-36
+35            android:theme="@style/AppTheme" >
+35-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:26:13-44
+36            <intent-filter>
+36-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:27:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:28:17-69
+37-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:28:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:29:17-77
+39-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:32:9-47:20
+43            android:name="com.hanryubank.knavi.MainActivity"
+43-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:33:13-41
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:34:13-90
+45            android:exported="true"
+45-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:35:13-36
+46            android:windowSoftInputMode="adjustResize" >
+46-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:36:13-55
+47            <intent-filter>
+47-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:37:13-46:29
+48                <action android:name="android.intent.action.VIEW" />
+48-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:17-69
+48-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:17-76
+50-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:27-73
+51                <category android:name="android.intent.category.BROWSABLE" />
+51-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:17-78
+51-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:27-75
+52
+53                <data
+53-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:43:17-45:45
+54                    android:host="search"
+54-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:44:21-42
+55                    android:scheme="nmap" />
+55-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:45:21-42
+56            </intent-filter>
+57        </activity>
+58
+59        <meta-data
+59-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:36
+60            android:name="app_data_collection_default_enabled"
+60-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-63
+61            android:value="true" />
+61-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-33
+62
+63        <service
+63-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+67            <meta-data
+67-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:85
+68                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+68-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-120
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+73        </service>
+74
+75        <provider
+75-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-24:38
+76            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+76-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-88
+77            android:authorities="com.hanryubank.knavi.reactnativefirebaseappinitprovider"
+77-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-86
+78            android:exported="false"
+78-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+79            android:initOrder="99" />
+79-->[:react-native-firebase_app] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-35
+80        <provider
+80-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+81            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+81-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-83
+82            android:authorities="com.hanryubank.knavi.fileprovider"
+82-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-64
+83            android:exported="false"
+83-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+84            android:grantUriPermissions="true" >
+84-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+85            <meta-data
+85-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:63
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+87                android:resource="@xml/file_provider_paths" />
+87-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-60
+88        </provider>
+89
+90        <activity
+90-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+91            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+91-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+92            android:excludeFromRecents="true"
+92-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+93            android:exported="true"
+93-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+94            android:launchMode="singleTask"
+94-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+95-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+96            <intent-filter>
+96-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:17-69
+97-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:25-66
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:17-76
+99-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:17-78
+100-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:27-75
+101
+102                <data
+102-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:43:17-45:45
+103                    android:host="firebase.auth"
+103-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:44:21-42
+104                    android:path="/"
+105                    android:scheme="genericidp" />
+105-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:45:21-42
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+109            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+109-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+110            android:excludeFromRecents="true"
+110-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+111            android:exported="true"
+111-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+112            android:launchMode="singleTask"
+112-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+113-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+114            <intent-filter>
+114-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+115                <action android:name="android.intent.action.VIEW" />
+115-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:17-69
+115-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:38:25-66
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:17-76
+117-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:27-73
+118                <category android:name="android.intent.category.BROWSABLE" />
+118-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:17-78
+118-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:41:27-75
+119
+120                <data
+120-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:43:17-45:45
+121                    android:host="firebase.auth"
+121-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:44:21-42
+122                    android:path="/"
+123                    android:scheme="recaptcha" />
+123-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:45:21-42
+124            </intent-filter>
+125        </activity>
+126
+127        <service
+127-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+128            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+128-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+129            android:enabled="true"
+129-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+131            <intent-filter>
+131-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+132                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+132-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+132-->[com.google.firebase:firebase-auth:21.0.1] Y:\repository\gradle\caches\transforms-3\b8b30c6bac450b0bdd5e36da9de627c5\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:17-76
+134-->E:\Project\Group Project\codeIdea\greenpass\knavigations\android\app\src\main\AndroidManifest.xml:40:27-73
+135            </intent-filter>
+136        </service>
+137        <service
+137-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:39
+138            android:name="com.burnweb.rnsendintent.RNSendIntentModule"
+138-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+139            android:exported="true" />
+139-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-36
+140
+141        <provider
+141-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-22:20
+142            android:name="com.burnweb.rnsendintent.FileProvider"
+142-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-65
+143            android:authorities="com.hanryubank.knavi.fileprovider"
+143-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-64
+144            android:exported="false"
+144-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-37
+145            android:grantUriPermissions="true" >
+145-->[:RNSendIntentModule] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-send-intent\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-47
+146            <meta-data
+146-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:63
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+148                android:resource="@xml/file_paths" />
+148-->[:react-native-webview] E:\Project\Group Project\codeIdea\greenpass\knavigations\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-60
+149        </provider>
+150
+151        <activity
+151-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+152            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+152-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+153            android:excludeFromRecents="true"
+153-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+156        <!--
+157            Service handling Google Sign-In user revocation. For apps that do not integrate with
+158            Google Sign-In, this service will never be started.
+159        -->
+160        <service
+160-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+161            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+161-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+162            android:exported="true"
+162-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+163            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+163-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+164            android:visibleToInstantApps="true" />
+164-->[com.google.android.gms:play-services-auth:19.2.0] Y:\repository\gradle\caches\transforms-3\477cdca5e81ec2db58cb0fd0b598890a\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:17.5.0] Y:\repository\gradle\caches\transforms-3\92684ae91838cbd2bec86680f9c91f77\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:17.5.0] Y:\repository\gradle\caches\transforms-3\92684ae91838cbd2bec86680f9c91f77\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:17.5.0] Y:\repository\gradle\caches\transforms-3\92684ae91838cbd2bec86680f9c91f77\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:17.5.0] Y:\repository\gradle\caches\transforms-3\92684ae91838cbd2bec86680f9c91f77\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+170
+171        <provider
+171-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+172            android:name="com.google.firebase.provider.FirebaseInitProvider"
+172-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+173            android:authorities="com.hanryubank.knavi.firebaseinitprovider"
+173-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+175            android:exported="false"
+175-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+176            android:initOrder="100" />
+176-->[com.google.firebase:firebase-common:20.0.0] Y:\repository\gradle\caches\transforms-3\39efed026a7a0d6136c3578402d2ae1e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:17.5.0] Y:\repository\gradle\caches\transforms-3\60a3f05b34bc283463147081e5d7e75e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:17.5.0] Y:\repository\gradle\caches\transforms-3\60a3f05b34bc283463147081e5d7e75e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:17.5.0] Y:\repository\gradle\caches\transforms-3\60a3f05b34bc283463147081e5d7e75e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+181    </application>
+182
+183</manifest>

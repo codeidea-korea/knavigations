@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "896489599475",
+    "project_id": "k-navigation",
+    "storage_bucket": "k-navigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896489599475:android:c62eb2ecee75b84b0aa286",
+        "android_client_info": {
+          "package_name": "com.hanryubank.knavi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896489599475-jjp21of43n8ubhjtbl4cba6488k5m5kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanryubank.knavi",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "896489599475-8f1vjpsifbs82ve9oe1j1702lbjk0avc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbEpYiEzrGTkmRYmVHN58c-tKB4qo-0p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896489599475-8f1vjpsifbs82ve9oe1j1702lbjk0avc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896489599475-njj6o7ukder1aad7jqsv3ohl0o334b3c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.knavigations"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896489599475:android:d7cb25ea224b18490aa286",
+        "android_client_info": {
+          "package_name": "com.hanryubank.knavi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896489599475-pdi8huot6l8fr3q3poombstuvehcldd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanryubank.knavi",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "896489599475-8f1vjpsifbs82ve9oe1j1702lbjk0avc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbEpYiEzrGTkmRYmVHN58c-tKB4qo-0p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896489599475-8f1vjpsifbs82ve9oe1j1702lbjk0avc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896489599475-njj6o7ukder1aad7jqsv3ohl0o334b3c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.knavigations"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
